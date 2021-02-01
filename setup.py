@@ -42,7 +42,7 @@ with codecs.open('README.rst', 'r', encoding='utf8') as file:
 
 
 setup(name='ncclient',
-      version=versioneer.get_version(),
+      version='0.6.10',
       cmdclass=versioneer.get_cmdclass(),
       description="Python library for NETCONF clients",
       long_description = long_description,

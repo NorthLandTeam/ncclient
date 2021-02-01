@@ -10,6 +10,7 @@ supported_devices_cfg = {'junos':'Juniper',
                          'h3c':'H3C',
                          'hpcomware':'HP Comware',
                          'sros':'Nokia SR OS',
+                         'ndsatcom':'ND SatCom',
                          'default':'Server or anything not in above'}
 
 def get_supported_devices():
