@@ -26,5 +26,6 @@ class NdsatcomDeviceHandler(DefaultDeviceHandler):
         c.append('http://ndsatcom.com/ns/tdma?module=tdma&revision=2018-04-16')
         c.append('http://ndsatcom.com/ns/tdmacalc?module=tdmacalc-sub&revision=2018-02-09')
         c.append('http://tail-f.com/ns/aaa/1.1?module=tailf-aaa&revision=2015-06-16')
-
+        c.append('urn:ietf:params:xml:ns:yang:ietf-yang-types?module=ietf-yang-types&revision=2013-07-15')
+        c.append('urn:ietf:params:xml:ns:yang:ietf-yang-library?module=ietf-yang-library&revision=2016-06-21')
         return c
